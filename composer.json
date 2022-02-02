@@ -1,0 +1,11 @@
+{
+    "name": "dali/analyzer",
+    "autoload": {
+        "psr-4": {
+            "Dali\\Analyzer\\": "src/"
+        }
+    },
+    "require": {
+        "strscan/strscan": "^1.0"
+    }
+}

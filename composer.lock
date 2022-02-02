@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fdf01d72ab2fda1933a661968104e7b0",
+    "packages": [
+        {
+            "name": "strscan/strscan",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nramenta/strscan-php.git",
+                "reference": "f8b9a5dc7f654508f2c20e33191d5ad5b782c83f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nramenta/strscan-php/zipball/f8b9a5dc7f654508f2c20e33191d5ad5b782c83f",
+                "reference": "f8b9a5dc7f654508f2c20e33191d5ad5b782c83f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "StrScan": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nofriandi Ramenta",
+                    "email": "nramenta@gmail.com"
+                }
+            ],
+            "description": "Simple string tokenizer for lexical scanning operations",
+            "keywords": [
+                "lexer",
+                "scanner"
+            ],
+            "support": {
+                "issues": "https://github.com/nramenta/strscan-php/issues",
+                "source": "https://github.com/nramenta/strscan-php/tree/1.0.3"
+            },
+            "time": "2014-06-21T20:07:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
